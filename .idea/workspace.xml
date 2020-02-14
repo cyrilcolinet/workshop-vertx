@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63901091-9578-40ba-80ff-e12e441e1858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/docker/workshop-db-seed/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/docker/workshop-db-seed/init.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +152,7 @@
       <workItem from="1573662080409" duration="36514000" />
       <workItem from="1573991610099" duration="40292000" />
       <workItem from="1575306073650" duration="188000" />
-      <workItem from="1581690894494" duration="2428000" />
+      <workItem from="1581690894494" duration="2693000" />
     </task>
     <task id="LOCAL-00001" summary="Automatic add og widgets and services in about.json route">
       <created>1572917285197</created>
@@ -240,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574115586315</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Allez hop">
+      <created>1581693714123</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581693714123</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,17 +289,22 @@
     <MESSAGE value="Add user controller" />
     <MESSAGE value="TODO: Fix problem with login (that creates new account)" />
     <MESSAGE value="Adding documentation and fix problems with docker mongodb" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding documentation and fix problems with docker mongodb" />
+    <MESSAGE value="Allez hop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Allez hop" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="424" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581693791544">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="424" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1581693791544" />
     <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581693514934">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1581693514934" />
-    <state x="541" y="196" key="CommitChangelistDialog2" timestamp="1581693642648">
+    <state x="541" y="196" key="CommitChangelistDialog2" timestamp="1581693713542">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="541" y="196" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1581693642648" />
+    <state x="541" y="196" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1581693713542" />
     <state width="1878" height="232" key="GridCell.Tab.0.bottom" timestamp="1581693574284">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
