@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+
+  # Instantiate database collections and more
+  workshop-db-seed:
+    build: ./src/docker/workshop-db-seed
+    depends_on:
+      - workshop-database
+
+  # Create mongo database
+  workshop-database:
+    container_name: database
+    image: mongo:latest
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    expose:
+      - 27017
+
+  # Add service api workshop
+  workshop-api:
+    container_name: api
+    build: ./
+    environment:
+      MONGO_HOST: "workshop-database"
+      MONGO_USER: "root"
+      MONGO_PASS: "example"
+      MONGO_DB: "workshop"
+      AUTHSOURCE: "admin"
+    depends_on:
+      - workshop-database
+      - workshop-db-seed
+
+# Configure external network
+networks:
+  default:
+    external:
+      name: workshop-network

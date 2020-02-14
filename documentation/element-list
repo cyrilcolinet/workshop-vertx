@@ -1,0 +1,16 @@
+eu.epitech.dashboard.api
+eu.epitech.dashboard.api.controllers
+eu.epitech.dashboard.api.controllers.abstracts
+eu.epitech.dashboard.api.controllers.objects
+eu.epitech.dashboard.api.core.database
+eu.epitech.dashboard.api.core.oauth2
+eu.epitech.dashboard.api.core.oauth2.applications
+eu.epitech.dashboard.api.core.services
+eu.epitech.dashboard.api.core.services.abstracts
+eu.epitech.dashboard.api.models
+eu.epitech.dashboard.api.widgets
+eu.epitech.dashboard.api.widgets.bourse
+eu.epitech.dashboard.api.widgets.github
+eu.epitech.dashboard.api.widgets.spotify
+eu.epitech.dashboard.api.widgets.steam
+eu.epitech.dashboard.api.widgets.weather
