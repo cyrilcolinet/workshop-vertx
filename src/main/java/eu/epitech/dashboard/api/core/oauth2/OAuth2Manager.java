@@ -1,7 +1,6 @@
 package eu.epitech.dashboard.api.core.oauth2;
 
 import eu.epitech.dashboard.api.core.oauth2.applications.GithubApp;
-import eu.epitech.dashboard.api.core.oauth2.applications.SpotifyApp;
 import io.vertx.ext.web.Router;
 
 import java.util.HashMap;
@@ -28,7 +27,7 @@ public class OAuth2Manager {
      */
     private void configureApplications() {
         this.app.put("github", new GithubApp());
-        this.app.put("spotify", new SpotifyApp());
+        //this.app.put("spotify", new SpotifyApp());
     }
 
     /**
